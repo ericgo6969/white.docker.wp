@@ -1,9 +1,0 @@
-2022-06-30T07:33:42+00:00 CRITICAL Uncaught InvalidArgumentException: item should be a Collection or an array or an object in /var/www/html/modules/sitepress-multilingual-cms/vendor/wpml/fp/core/Obj.php:112
-Stack trace:
-#0 [internal function]: WPML\FP\Obj::WPML\FP\{closure}('', 'display_name', false)
-#1 /var/www/html/modules/sitepress-multilingual-cms/vendor/wpml/fp/core/functions.php(152): call_user_func_array(Object(Closure), Array)
-#2 /var/www/html/modules/sitepress-multilingual-cms/classes/menu/translation-queue/class-wpml-translations-queue-jobs-model.php(250): WPML\FP\{closure}(false)
-#3 /var/www/html/modules/sitepress-multilingual-cms/classes/menu/translation-queue/class-wpml-translations-queue-jobs-model.php(98): WPML_Translations_Queue_Jobs_Model->get_language_pair(Object(stdClass))
-#4 /var/www/html/modules/sitepress-multilingual-cms/classes/menu/translation-queue/class-wpml-translations-queue.php(439): WPML_Translations_Queue_Jobs_Model->get()
-#5 /var/www/html/modules/sitepress-multilingual-cms/classes/class-wpml-translation-manageme in /var/www/html/modules/sitepress-multilingual-cms/vendor/wpml/fp/core/Obj.php on line 112
-
