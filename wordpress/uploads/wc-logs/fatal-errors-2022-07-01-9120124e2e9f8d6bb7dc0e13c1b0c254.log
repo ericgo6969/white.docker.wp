@@ -1,0 +1,11 @@
+2022-07-01T09:10:53+00:00 CRITICAL Uncaught Exception: Supplied nav_menu_item value missing property: description in /var/www/html/core/wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:183
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-customize-nav-menus.php(818): WP_Customize_Nav_Menu_Item_Setting->__construct(Object(WP_Customize_Manager), 'nav_menu_item[3...', Array)
+#1 /var/www/html/core/wp-includes/class-wp-hook.php(307): WP_Customize_Nav_Menus->customize_register(Object(WP_Customize_Manager))
+#2 /var/www/html/core/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/core/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/core/wp-includes/class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 /var/www/html/core/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#6 /var/www/html/core/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/core/wp-includes/pl in /var/www/html/core/wp-includes/customize/class-wp-customize-nav-menu-item-setting.php on line 183
+

@@ -1,0 +1,186 @@
+2022-06-20T08:25:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:25:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:25:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:26:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:26:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:26:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:27:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:28:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:28:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:28:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:28:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:28:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:28:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:28:55+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_currency() in /var/www/html/modules/huntgem/woocommerce/wc-functions.php:641
+Stack trace:
+#0 /var/www/html/core/wp-includes/class-wp-hook.php(307): change_existing_currency_symbol('&#36;', 'USD')
+#1 /var/www/html/core/wp-includes/plugin.php(191): WP_Hook->apply_filters('&#36;', Array)
+#2 /var/www/html/modules/woocommerce/includes/wc-core-functions.php(854): apply_filters('woocommerce_cur...', '&#36;', 'USD')
+#3 /var/www/html/modules/woocommerce/includes/widgets/class-wc-widget-price-filter.php(45): get_woocommerce_currency_symbol()
+#4 /var/www/html/core/wp-includes/class-wp-widget-factory.php(61): WC_Widget_Price_Filter->__construct()
+#5 /var/www/html/core/wp-includes/widgets.php(115): WP_Widget_Factory->register('WC_Widget_Price...')
+#6 /var/www/html/modules/woocommerce/includes/wc-widget-functions.php(39): register_widget('WC_Widget_Price...')
+#7 /var/www/html/core/wp-includes/class-wp-hook.php(307): wc_register_widgets('')
+#8 /var/www/html/core/wp-incl in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 641
+
+2022-06-20T08:29:36+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 636
+
+2022-06-20T08:30:45+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 636
+
+2022-06-20T08:30:46+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in /var/www/html/modules/huntgem/woocommerce/wc-functions.php on line 636
+
+2022-06-20T08:31:18+00:00 CRITICAL Cannot redeclare randomCode() (previously declared in /var/www/html/modules/huntgem/functions.php:94) in /var/www/html/modules/huntgem/function.php on line 56
+
+2022-06-20T08:31:37+00:00 CRITICAL Cannot redeclare randomCode() (previously declared in /var/www/html/modules/huntgem/functions.php:94) in /var/www/html/modules/huntgem/function.php on line 56
+
+2022-06-20T08:32:46+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/modules/huntgem/dashboard/dashboard-functions.php' (include_path='.:/usr/local/lib/php') in /var/www/html/modules/huntgem/huntgem.php on line 37
+
+2022-06-20T08:32:47+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/modules/huntgem/dashboard/dashboard-functions.php' (include_path='.:/usr/local/lib/php') in /var/www/html/modules/huntgem/huntgem.php on line 37
+
+2022-06-20T08:33:13+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/modules/huntgem/dashboard/dashboard-functions.php' (include_path='.:/usr/local/lib/php') in /var/www/html/modules/huntgem/huntgem.php on line 37
+
+2022-06-20T08:33:38+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/modules/huntgem/dashboard/dashboard-functions.php' (include_path='.:/usr/local/lib/php') in /var/www/html/modules/huntgem/huntgem.php on line 37
+
