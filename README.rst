@@ -5,7 +5,7 @@ Description
 -----------
 
 White wordpress in new folder structure
-/app - wordpress core folder |
+/app - wordpress core folder |br|
 /config - wordpress config (wp-config.php)
 /extra-module - mu-plugins folder
 /modules - plugins folder
