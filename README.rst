@@ -4,15 +4,15 @@ Wordpress + Nginx + PHP8.2 + MySQL
 Description
 -----------
 
-| White wordpress in new folder structure
-| /app - wordpress core folder
-/config - wordpress config (wp-config.php)
-/extra-module - mu-plugins folder
-/modules - plugins folder
-/themes - themes folder
-/uploads - upload folder
-nginx.conf - all nginx docker server config
-router.php - new folder name variable
+| White wordpress in new folder structure:
+|   /app - wordpress core folder
+|   /config - wordpress config (wp-config.php)
+|   /extra-module - mu-plugins folder
+|   /modules - plugins folder
+|   /themes - themes folder
+|   /uploads - upload folder
+|   nginx.conf - all nginx docker server config
+|   router.php - new folder name variable
 
 Install
 -------
@@ -24,5 +24,5 @@ Install
 Port
 ====
 
-Wordpress: 8443
-MySQL: 3006
+| Wordpress: 8443
+| MySQL: 3006
