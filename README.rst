@@ -1,10 +1,9 @@
 Wordpress + Nginx + PHP8.2 + MySQL
 ==================================
 
-Description
------------
+White wordpress in new folder structure:
+----------------------------------------
 
-| White wordpress in new folder structure:
 |   /app - wordpress core folder
 |   /config - wordpress config (wp-config.php)
 |   /extra-module - mu-plugins folder
